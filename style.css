@@ -2,7 +2,21 @@ img {
     height: 500px;
     width: 500px;
 }
-body {
+
+.center, .name {
     max-width: 500px;
+    margin: auto;
+}
+
+.name {
+    background-color: aqua;
+    text-align: center;
+}
+
+.list {
+    background-color: antiquewhite;
+    text-align: center;
+    max-width: 500px;
+    min-height: 500px;
     margin: auto;
 }
